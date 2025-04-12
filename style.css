@@ -151,3 +151,18 @@ footer {
 .certs li {
   margin-bottom: 0.5em;
 }
+.cert-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6em;
+  margin-top: 1em;
+}
+
+.cert-badges span {
+  background-color: #007bff;
+  color: white;
+  padding: 0.4em 0.8em;
+  border-radius: 20px;
+  font-size: 0.9em;
+  white-space: nowrap;
+}
