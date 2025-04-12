@@ -276,3 +276,35 @@ body.dark-mode .theme-toggle button {
   background-color: #333;
   color: #fff;
 }
+/* === Project Card Colors by Category === */
+.project-card.research { background-color: #f4f0fa; }
+.project-card.offensive { background-color: #faeaea; }
+.project-card.defensive { background-color: #eaf4fb; }
+.project-card.vuln      { background-color: #fff9e6; }
+.project-card.awareness { background-color: #edf9ed; }
+.project-card.grc       { background-color: #f0f4f7; }
+.project-card.threat    { background-color: #fdf6ec; }
+
+/* === Tag Badge Styling === */
+.tags {
+  margin-top: 0.6em;
+}
+
+.tags span {
+  display: inline-block;
+  background-color: #ddd;
+  color: #333;
+  font-size: 0.75em;
+  padding: 0.3em 0.7em;
+  border-radius: 12px;
+  margin-right: 0.4em;
+  margin-bottom: 0.3em;
+}
+
+/* === First Project Label === */
+.first-project-tag {
+  font-size: 0.75em;
+  font-style: italic;
+  color: #888;
+  margin-left: 0.4em;
+}
