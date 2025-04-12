@@ -207,18 +207,24 @@ body.dark-mode .theme-toggle button {
   margin-bottom: 1em;
 }
 
+.skills .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1em;
+}
+
 .skill-block {
-  margin-bottom: 1.5em;
-  padding: 1em;
-  border-radius: 8px;
+  padding: 0.8em;
+  border-radius: 6px;
   background-color: #f2f2f2;
-  width: 100%;
+  font-size: 0.95em;
   box-sizing: border-box;
+  height: 100%;
 }
 
 .skill-block h4 {
   margin-top: 0;
-  font-size: 1.1em;
+  font-size: 1em;
   color: #007bff;
 }
 
@@ -232,20 +238,20 @@ body.dark-mode .theme-toggle button {
   margin-bottom: 0.4em;
 }
 
-/* Color strip for each tier */
+/* Colored borders per skill level */
 .skill-block.hands-on {
-  border-left: 5px solid #28a745; /* green */
+  border-left: 5px solid #28a745;
 }
 
 .skill-block.mid {
-  border-left: 5px solid #ffc107; /* yellow */
+  border-left: 5px solid #ffc107;
 }
 
 .skill-block.learning {
-  border-left: 5px solid #17a2b8; /* teal */
+  border-left: 5px solid #17a2b8;
 }
 
-/* Dark Mode compatibility */
+/* Dark mode */
 body.dark-mode .skill-block {
   background-color: #1e1e1e;
 }
@@ -253,4 +259,3 @@ body.dark-mode .skill-block {
 body.dark-mode .skill-block h4 {
   color: #66b2ff;
 }
-
