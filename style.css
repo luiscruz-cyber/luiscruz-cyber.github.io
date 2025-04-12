@@ -341,3 +341,24 @@ body.dark-mode .theme-toggle button {
   color: #888;
   margin-left: 0.4em;
 }
+.involvement {
+  margin-top: 2em;
+  background-color: #f9f9f9;
+  padding: 1.5em;
+  border-radius: 10px;
+}
+
+.assoc-volunteer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.assoc-volunteer .column {
+  flex: 1;
+  min-width: 250px;
+}
+
+.assoc-volunteer h4 {
+  margin-bottom: 0.5em;
+}
