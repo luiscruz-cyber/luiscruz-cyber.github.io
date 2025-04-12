@@ -1,13 +1,13 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #111;
-  color: #f0f0f0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
   margin: 0;
   padding: 0;
 }
 
 .container {
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
   padding: 2em;
 }
@@ -17,32 +17,80 @@ header {
   margin-bottom: 2em;
 }
 
+.profile-pic {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1em;
+  border: 3px solid #007bff;
+}
+
 h1 {
-  font-size: 2.5em;
+  font-size: 2.2em;
   margin: 0;
 }
 
 h2 {
-  font-size: 1.5em;
-  color: #ccc;
+  font-size: 1.2em;
   font-weight: normal;
+  color: #555;
+  margin: 0.2em 0 0.8em;
 }
 
-.bio, .projects {
+.tagline {
+  font-style: italic;
+  color: #666;
+}
+
+.links {
+  text-align: center;
   margin-bottom: 2em;
 }
 
-a {
-  color: #00bfff;
+.button {
+  display: inline-block;
+  margin: 0.4em;
+  padding: 0.6em 1.2em;
+  background-color: #007bff;
+  color: white;
   text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
 }
 
-a:hover {
+.button:hover {
+  background-color: #0056b3;
+}
+
+.projects {
+  margin-bottom: 2em;
+}
+
+.project-card {
+  background-color: white;
+  border: 1px solid #dee2e6;
+  padding: 1em;
+  border-radius: 6px;
+  margin-bottom: 1em;
+}
+
+.project-card h4 {
+  margin: 0 0 0.5em;
+}
+
+.project-card a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.project-card a:hover {
   text-decoration: underline;
 }
 
 footer {
   text-align: center;
   font-size: 0.9em;
-  color: #666;
+  color: #888;
+  margin-top: 3em;
 }
