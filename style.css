@@ -94,3 +94,41 @@ footer {
   color: #888;
   margin-top: 3em;
 }
+.header-flex {
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+  margin-bottom: 2em;
+  flex-wrap: wrap;
+}
+
+.profile-pic {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #007bff;
+  flex-shrink: 0;
+}
+
+.intro-text {
+  flex: 1;
+}
+
+.intro-text h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+.intro-text h2 {
+  margin: 0.3em 0;
+  color: #555;
+  font-size: 1.2em;
+  font-weight: normal;
+}
+
+.tagline {
+  color: #666;
+  font-style: italic;
+}
+
