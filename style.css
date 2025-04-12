@@ -31,16 +31,10 @@ body {
   flex-shrink: 0;
 }
 
-.intro-text h1 {
-  margin: 0;
-  font-size: 2em;
-}
-
-.intro-text h2 {
-  margin: 0.3em 0;
-  color: #555;
-  font-size: 1.2em;
-  font-weight: normal;
+.intro-text {
+  flex: 1;
+  min-width: 0;
+  overflow: visible;
 }
 
 .tagline {
