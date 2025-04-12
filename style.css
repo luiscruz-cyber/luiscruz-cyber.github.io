@@ -272,6 +272,10 @@ body.dark-mode .skill-block h4 {
   border-radius: 20px;
   cursor: pointer;
   font-size: 0.9em;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
 }
 
 body.dark-mode .theme-toggle button {
