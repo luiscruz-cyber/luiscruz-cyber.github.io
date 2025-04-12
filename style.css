@@ -1,3 +1,4 @@
+/* === Base Styles === */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f8f9fa;
@@ -12,15 +13,13 @@ body {
   padding: 2em;
 }
 
-header {
-  margin-bottom: 2em;
-}
-
+/* === Header === */
 .header-flex {
   display: flex;
   align-items: center;
   gap: 1.5em;
   flex-wrap: wrap;
+  margin-bottom: 2em;
 }
 
 .profile-pic {
@@ -30,10 +29,6 @@ header {
   object-fit: cover;
   border: 2px solid #007bff;
   flex-shrink: 0;
-}
-
-.intro-text {
-  flex: 1;
 }
 
 .intro-text h1 {
@@ -53,6 +48,7 @@ header {
   font-style: italic;
 }
 
+/* === Link Buttons === */
 .links {
   text-align: center;
   margin-bottom: 2em;
@@ -73,6 +69,7 @@ header {
   background-color: #0056b3;
 }
 
+/* === Projects === */
 .projects {
   margin-bottom: 2em;
 }
@@ -98,7 +95,7 @@ header {
   text-decoration: underline;
 }
 
-/* Certifications section */
+/* === Certs Section (Color-coded Badges) === */
 .certs {
   margin-top: 3em;
 }
@@ -108,69 +105,11 @@ header {
   margin-bottom: 1em;
 }
 
-.cert-list {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
-}
-
-.cert-list li {
-  background: #f9f9f9;
-  padding: 0.8em 1em;
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  gap: 1em;
-  transition: background 0.2s ease;
-}
-
-.cert-list li:hover {
-  background: #e6f0ff;
-}
-
-.cert-list img {
-  width: 48px;
-  height: 48px;
-  border-radius: 4px;
-  flex-shrink: 0;
-}
-
-footer {
-  text-align: center;
-  font-size: 0.9em;
-  color: #888;
-  margin-top: 3em;
-}
-.certs ul {
-  list-style-type: disc;
-  padding-left: 1.5em;
-}
-
-.certs li {
-  margin-bottom: 0.5em;
-}
 .cert-badges {
   display: flex;
   flex-wrap: wrap;
   gap: 0.6em;
-  margin-top: 1em;
-}
-
-.cert-badges span {
-  background-color: #007bff;
-  color: white;
-  padding: 0.4em 0.8em;
-  border-radius: 20px;
-  font-size: 0.9em;
-  white-space: nowrap;
-}
-.cert-badges {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.6em;
-  margin-top: 1em;
+  justify-content: center;
 }
 
 .cert-badges span {
@@ -182,12 +121,13 @@ footer {
   font-weight: bold;
 }
 
-/* Color-coded cert tags */
+/* === Badge Colors === */
 .safesm {
   background-color: #5e4b8b;
 }
 
-.ccna, .devnet {
+.ccna,
+.devnet {
   background-color: #1d76db;
 }
 
@@ -207,69 +147,11 @@ footer {
 .cribl {
   background-color: #00bfae;
 }
-.cert-badges {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.6em;
-  margin-top: 1em;
-}
 
-.cert-badges span {
-  color: white;
-  padding: 0.4em 0.8em;
-  border-radius: 20px;
+/* === Footer === */
+footer {
+  text-align: center;
   font-size: 0.9em;
-  white-space: nowrap;
-  font-weight: bold;
+  color: #888;
+  margin-top: 3em;
 }
-
-/* Color-coded cert tags */
-.safesm {
-  background-color: #5e4b8b;
-}
-
-.ccna, .devnet {
-  background-color: #1d76db;
-}
-
-.splunk {
-  background-color: #000000;
-}
-
-.securityplus {
-  background-color: #e31b23;
-}
-
-.aws {
-  background-color: #ff9900;
-  color: #000; /* black text for contrast */
-}
-
-.cribl {
-  background-color: #00bfae;
-}
-/* === Certification Badge Colors === */
-.cert-badges {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.6em;
-  margin-top: 1em;
-}
-
-.cert-badges span {
-  color: white;
-  padding: 0.4em 0.8em;
-  border-radius: 20px;
-  font-size: 0.9em;
-  white-space: nowrap;
-  font-weight: bold;
-}
-
-/* Color-coded cert tags */
-.safesm { background-color: #5e4b8b; }
-.ccna, .devnet { background-color: #1d76db; }
-.splunk { background-color: #000000; }
-.securityplus { background-color: #e31b23; }
-.aws { background-color: #ff9900; color: #000; }
-.cribl { background-color: #00bfae; }
-
