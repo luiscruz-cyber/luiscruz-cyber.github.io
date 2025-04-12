@@ -131,4 +131,20 @@ footer {
   color: #666;
   font-style: italic;
 }
+.certs {
+  margin-top: 3em;
+}
+
+.certs ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.certs li {
+  background: #e9ecef;
+  margin: 0.4em 0;
+  padding: 0.5em 0.8em;
+  border-radius: 5px;
+  color: #212529;
+}
 
