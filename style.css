@@ -166,3 +166,44 @@ footer {
   font-size: 0.9em;
   white-space: nowrap;
 }
+.cert-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6em;
+  margin-top: 1em;
+}
+
+.cert-badges span {
+  color: white;
+  padding: 0.4em 0.8em;
+  border-radius: 20px;
+  font-size: 0.9em;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+/* Color-coded cert tags */
+.safesm {
+  background-color: #5e4b8b;
+}
+
+.ccna, .devnet {
+  background-color: #1d76db;
+}
+
+.splunk {
+  background-color: #000000;
+}
+
+.securityplus {
+  background-color: #e31b23;
+}
+
+.aws {
+  background-color: #ff9900;
+  color: #000;
+}
+
+.cribl {
+  background-color: #00bfae;
+}
