@@ -143,3 +143,11 @@ footer {
   color: #888;
   margin-top: 3em;
 }
+.certs ul {
+  list-style-type: disc;
+  padding-left: 1.5em;
+}
+
+.certs li {
+  margin-bottom: 0.5em;
+}
